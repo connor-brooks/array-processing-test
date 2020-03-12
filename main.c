@@ -59,7 +59,7 @@ void process(Array *array, int n) {
      * aligned*/
     cur_left_item = left_ptr + i;
 
-    /* If we're out of bounds, set cur_a to point to a zero (right padding) 
+    /* If we're out of bounds, set cur_a to point to a zero (left padding) 
      * &zero isn't 100% needed, and NULL could be used instead, and then 
      * checked for when the left item is added to the right, however that
      * would require an additional check */
